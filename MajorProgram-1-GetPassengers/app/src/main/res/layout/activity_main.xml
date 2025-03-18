@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:background="@color/gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/top_label"
+        android:layout_marginTop="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="70sp"
+        android:text="@string/Label"
+        android:textAlignment="center"
+        android:textSize="16pt"
+        android:textColor="@color/darkGray" />
+
+    <Button
+        android:id="@+id/get_list_button"
+        android:layout_width="200sp"
+        android:layout_height="60sp"
+        android:layout_marginStart="100sp"
+        android:text="@string/GetList"
+        android:textSize="6pt"/>
+
+        <TextView
+            android:id="@+id/show_list"
+            app:layout_constraintTop_toBottomOf="@+id/topButton"
+            android:layout_width="340sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:background="@color/yellow"
+            android:text="@string/PassengerList"
+            android:textAlignment="center"
+            android:textSize="10pt"
+            android:textColor="@color/darkGray" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

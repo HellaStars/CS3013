@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">getPassengers</string>
+    <string name="Label">PASSENGERS LIST APP</string>
+    <string name="PassengerList">RETURNED PASSENGERS LIST</string>
+    <string name="GetList">GET PASSENGERS LIST</string>
+    <string name="EnterOne">Enter One Passenger</string>
+    <string name="AddPassenger">Add Passenger</string>
+    <string name="Return">Return List</string>
+    <string name="Accumulating">Accumulating Passenger/s List \n ______________________________</string>
+    <string name="phoneNum">Enter Phone Number</string>
+    <string name="FirstName">Enter First Name</string>
+    <string name="lastName">Enter last Name</string>
+    <string name="submitList">Submit List</string>
+</resources>
